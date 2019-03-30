@@ -20,18 +20,18 @@
 
 
 <!-- Now everything we'll need to use firebase -->
-  <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
 
   <script type="text/javascript">
   
     //replace this with the config in the code snippet provided from Firebase.
     var config = {
-      apiKey: '<%= process.env.API_KEY %>', // this references the API_KEY environemnt variable!
-      authDomain: "databaseexample-5d86a.firebaseapp.com",
-      databaseURL: "https://databaseexample-5d86a.firebaseio.com",
-      projectId: "databaseexample-5d86a",
-      storageBucket: "databaseexample-5d86a.appspot.com",
-      messagingSenderId: "684265563648"
+      apiKey: <%= process.env.API_KEY %>, // this references the API_KEY environemnt variable!
+      authDomain: "workshop-database-3ec30.firebaseapp.com",
+    databaseURL: "https://workshop-database-3ec30.firebaseio.com",
+    projectId: "workshop-database-3ec30",
+    storageBucket: "workshop-database-3ec30.appspot.com",
+    messagingSenderId: "553588275853"
     };
     firebase.initializeApp(config);
   </script>
